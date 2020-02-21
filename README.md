@@ -51,6 +51,8 @@ _Question 3: Where does git internally store the file names to our files? How ar
 
 > Tree objects used created with git mktree and not git hash-object. The tree objects stores information about our git directories. Trees could be comprised of a set of BLOBS or in addition to other trees. Similar to directories and sub-directories in our computer, which forms a tree.
 
+> I added this to fix an issue.
+
 When you are finished answering these questions, create an issue called "readme updates" and open a pull request for this gitfundamentals branch. Make sure that when you merge the branch ... the issue automatically closes.
 
 Don't forget all the "best practices" we have discussed this term.
